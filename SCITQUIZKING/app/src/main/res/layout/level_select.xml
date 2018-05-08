@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="초급"
+        android:layout_margin="5dp"
+        android:id="@+id/easy"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="btnLevel"
+        android:background="#D4F4FA"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="중급"
+        android:layout_margin="5dp"
+        android:id="@+id/noormal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="btnLevel"
+        android:background="#D4F4FA"
+        />
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:text="고급"
+        android:layout_margin="5dp"
+        android:id="@+id/hard"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="btnLevel"
+        android:background="#D4F4FA" />
+
+</LinearLayout>
